@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin panel</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="./index.html">
+        <div class="logo"> D<span id="n">n</span><span class="small_cont">|Admin</span></div>
+        </a>
+        <div class="menu">
+            <a class="Homecon" href="../index.html"><img src="../images/Home.png" alt="Home"></a>
+            <a href="./index.html">
+                <div class="menu_item1"> Home </div>
+            </a>
+            <a href="./pages/about-me.html">
+                <div class="menu_item2"> About-me </div>
+            </a>
+            <a href="./pages/projects.html">
+                <div class="menu_item3"> Projects </div>
+            </a>
+            <a href="./pages/blog.html">
+                <div class="menu_item4"> Blog </div>
+            </a>
+            <a href="./pages/contact.html">
+                <div class="menu_item5"> Contact</div>
+            </a>
+            <a href="./pages/hire-me.html">
+                <div class="menu_item6"> Hire-Me</div>
+            </a>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="container">
+            <div class="sidebar">
+                <div class="home_1 sides">
+                    <a href="./index.html">Home</a>
+                </div>
+
+                <div class="home_1 sides active">
+                    <a href="./addblog.html">Blogs</a>
+                </div>
+
+                <!-- <div class="home_1 sides">
+                    <a href="./comaud.html">Comments</a>
+                </div> -->
+
+                <div class="home_1 sides">
+                    <a href="./comaud.html">Audience</a>
+                </div>
+
+                <div class="home_1 sides">
+                    <a href="./security.html">Security</a>
+                </div>
+
+                <div class="home_1 sides">
+                    <a href="../index.html">Logout</a>
+                </div>
+            </div>
+
+            <div class="bigpart">
+
+                <div class="main">
+                    <div class="container">
+                        <div class="real_form">
+                            <h2>Add A Blog Post</h2>
+                            <div class="input_group">
+                                <label> Blog Title</label>
+                                <input type="text">
+                            </div>
+                            <div class="input_group">
+                                <label>Blog Tags</label>
+                                <input type="text">
+                            </div>
+                            <div class="input_group">
+                                <label>Blog Text</label>
+                                <textarea name="" id="blogarea" cols="60" rows="20"></textarea>
+                                <label for="">Featured Text</label>
+                                <textarea name="" id="blogarea" cols="60" rows="5"></textarea>
+                            </div>
+                            <center>
+                            <button type="submit" class="butt_sub">Post It</button></center>
+                        </div>                        
+                    </div>
+                    <br>
+                        <br><br><br><br><br>
+                        <h2>All Blog Posts</h2>
+                        <div class="flex_blog">
+                    
+                            <table class="content-table ">
+                                <thead>
+                                    <tr>
+                                        <th>Blog Post Name</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>how to Master css</td>
+                                    <tr>
+                                        <td>What Html is Enough</td>
+                                </tbody>
+                            </table>
+                            <table class="content-table ">
+                                <thead>
+                                    <tr>
+                                        <th>Blog Post Name</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>how to Master css</td>
+                                    <tr>
+                                        <td>What Html is Enough</td>
+                                </tbody>
+                            </table>
+                        </div>
+                        <br><br><br><br><br>
+
+                        <h2>Comments</h2>
+                    <table class="content-table">
+                        <thead>
+                            <tr>
+                                <th>FirstName</th>
+                                <th>Email </th>
+                                <th>Blog Post</th>
+                                <th>Comment</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Derrick</td>
+                                <td><a href="mailto:iradukundaderrick7@gmail.com">iradukundaderrick7@gmail.com</a></td>
+                                <td>How To Master Local Storage</td>
+                                <td>i like the cheat sheet a lot it provides good information</td>
+                            </tr>
+                            <tr>
+                                <td>Derrick</td>
+                                <td><a href="mailto:iradukundaderrick7@gmail.com">iradukundaderrick7@gmail.com</a></td>
+                                <td>How To Use Media Queries</td>
+                                <td>nice guide this reminded me of all the things i have forgotten in my career</td>
+                            </tr>
+                            <tr>
+                                <td>Derrick</td>
+                                <td><a href="mailto:iradukundaderrick7@gmail.com">iradukundaderrick7@gmail.com</a></td>
+                                <td>How To Use Media Queries</td>
+                                <td>nice guide this reminded me of all the things i have forgotten in my career</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br><br><br><br><br>
+                    <h2>Likes</h2>
+                    <table class="content-table full_body">
+                        <thead>
+                            <tr>
+                                <th>BlogPost</th>
+                                <th>Likes</th>
+                                <th>People</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>How To Master WebDevelopment</td>
+                                <td>5</td>
+                                <td>Derrick, Blaise</td>
+                            </tr>
+                            <tr>
+                                <td>How To Master media Queries</td>
+                                <td>5</td>
+                                <td>Derrick, Blaise</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
